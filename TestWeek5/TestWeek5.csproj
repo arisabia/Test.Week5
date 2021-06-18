@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.4" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\build\../runtimes/win/native/libzstd.dll" />
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\contentFiles\any\netstandard2.1\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\contentFiles\any\netstandard2.1\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\build\../runtimes/win/native/libzstd.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\build\../runtimes/win/native/snappy32.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\larisa.b.antonica\.nuget\packages\mongodb.driver.core\2.12.4\build\../runtimes/win/native/snappy64.dll" />
+  </ItemGroup>
+
+</Project>
